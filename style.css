@@ -1,0 +1,58 @@
+*{
+ 
+ margin: 0;
+ padding-left: 15px;
+}
+
+nav{
+	background-color: aqua;
+	padding-top: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+li{
+	float: left;
+	padding: 10px;
+	padding-top: 30px;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 25px;
+
+
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	float: right;
+	padding-right: 50px;
+}
+.first-section{
+	font-size: 35px;
+	padding-top: 150px;
+	background-size: cover;
+	background-image: url(images/laptop2.jpg);
+	height: 420px;
+	position: static;
+	background-position: center center;
+}
+.first-section p{
+	padding-top: 160px;
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: yellow;
+	background-color: #000;
+}
+
+.footer{
+	background-color: #000000;
+	height: 100px;
+	padding-top: 100px;
+	width: 100%;
+	position: relative;
