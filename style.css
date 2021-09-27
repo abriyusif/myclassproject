@@ -36,6 +36,8 @@ ul li{
 	position: static;
 	background-position: center center;
 }
+
+a
 .first-section p{
 	padding-top: 160px;
 	
@@ -56,4 +58,8 @@ a:hover{
 	padding-top: 100px;
 	width: 100%;
 	position: relative;
+}
+marquee{
+	font-size: 45px;
+	color: #ffffff;
 }

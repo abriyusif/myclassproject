@@ -9,8 +9,19 @@ nav{
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
-	height: 100px;
+	height: 200px;
 
+}
+
+ul li ul li{
+	float: none;
+}
+ul li ul{
+	display: none;
+}
+
+ul li:hover ul{
+	display: block;
 }
 
 li{
